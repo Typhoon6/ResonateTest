@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  
 }
-
+body {
+  background-color: rgb(31,37,61);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,5 +37,516 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+/* Test 1: */
+p {
+  margin: 0;
+}
+.tname {
+  width: 100px;
+  display: inline-block;
+}
+.pass {
+  color: green;
+}
+.fail {
+  color: red;
+}
+
+
+#task1_section, #task2_section, #resonate_header_btns, #resonate_header_btns_small {
+  display: none;
+}
+
+#task1_section {
+  color: white;
+}
+
+
+
+#contacts_header {
+  color: white;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+#resonate_header {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 32px;
+  background-image: url("https://www.resonate.cx/wp-content/uploads/2021/10/resonate-horizontal-color.png");
+  background-repeat: no-repeat;
+  background-color: rgb(80,88,122);
+  border-bottom: 2px solid rgb(16, 168, 172);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.res_task_btn {
+  margin: 20px;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(16, 168, 172);
+  background-color: rgb(31,37,61);
+  color: rgb(253,255,255);
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+}
+.res_task_btn:hover {
+  color: rgb(16, 168, 172);
+  font-weight: bold;
+}
+
+
+.open_screen_btn {
+  width: 360px;
+  height: 90px;
+  font-size: 48px;
+}
+
+.open_screen_btn:hover {
+  background-color: rgb(16, 168, 172);
+  border: 2px solid rgb(80,88,122);
+  color: rgb(31,37,61);
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -ms-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+
+#flex_contact_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  font-size: 48px;
+  font-weight: 600;
+  display: table;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.contact_img_details, .contact_text_details {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  
+}
+
+.contact_text_details {
+  padding-left: 20px;
+  width: 100%;
+}
+
+.contact_img_text {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.contact_name {
+  font-size: 24px;
+  font-family:Arial;
+  font-weight: bold;
+  color: rgb(253,255,255);
+}
+
+.contact_user {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: rgb(145,153,189);
+}
+
+
+.contact_details_block {
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  width: 800px;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(57,65,101);
+}
+
+
+
+
+
+.contact_comadd_block {
+  display: flex;
+  margin-top: 10px;
+}
+.contact_company_block, .contact_address_block {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  border-top: 2px solid rgb(16, 168, 172);
+  margin-left: 3px;
+  margin-right: 3px;
+  border-right: 1px solid rgb(35, 38, 54);
+  padding-top: 7px;
+}
+.company_title {
+  color: rgb(253,255,255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  display: flex;
+  border-bottom: 1px solid rgb(35, 38, 54);
+  margin-right: 3px;
+  padding-bottom: 5px;
+}
+.comp_title, .comp_name {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.comp_name {
+  padding-left: 5px;
+  color: rgb(145,153,189);
+}
+.comp_catch {
+  font-size: 16px;
+  color: rgba(240, 240, 240, 0.842);
+
+  margin-top: 5px;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-style: italic;
+  border: 1px solid rgb(38,46,80);
+  border-radius: 5px;
+  background-color: rgb(80,88,122);
+}
+.comp_bs {
+  color: rgb(145,153,189);
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+.add_title, .add_name {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.add_title {
+  color: rgb(253,255,255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  padding-left: 5px;
+}
+.add_name {
+  padding-left: 8px;
+  color: rgb(145,153,189);
+  font-size: 16px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.add_size {
+  font-size: 20px;
+}
+.add_size2 {
+  font-size: 18px;
+}
+.lng_pad {
+  margin-left: 30px;
+}
+.addstreet {
+  border-bottom: 1px solid rgb(35, 38, 54);
+  margin-right: 3px;
+  padding-bottom: 5px;
+}
+
+
+.det_title {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.det_name {
+  color: rgb(145,153,189);
+  font-size: 18px;
+}
+
+.pew {
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 1px solid rgb(35, 38, 54);
+}
+
+.company_title:hover, .addstreet:hover {
+  background-color: rgb(80,88,122);
+  cursor: pointer;
+}
+
+.det_name:hover {
+  color: rgb(16, 168, 172);
+  text-decoration: underline;  
+  cursor: pointer;
+}
+
+
+
+.company_title, .addstreet {
+  background-image: url("https://www.svgrepo.com/show/256961/expand.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20px 20px;
+
+}
+
+
+.cimg_col_a {
+  color: #802200;
+  background-color: #ffc09f;
+  border: 1px solid #802200;
+}
+.cimg_col_b {
+  color: #483c0c;
+  background-color: #ffee93 ;
+  border: 1px solid #483c0c;
+}
+.cimg_col_c {
+  color: #2e456d;
+  background-color: #ccdbfd;
+  border: 1px solid #2e456d;
+}
+.cimg_col_d {
+  color: #2b390e;
+  background-color: #adf7b6;
+  border: 1px solid #2b390e;
+}
+.cimg_col_e {
+  color: #39134c;
+  background-color: #eac4d5;
+  border: 1px solid #39134c;
+}
+.cimg_col_f {
+  color: #22313f;
+  background-color: #d6eadf;
+  border: 1px solid #22313f;
+}
+.cimg_col_g {
+  color: #000036;
+  background-color: #b8e0d2;
+  border: 1px solid #000036;
+}
+.cimg_col_h {
+  color: #600000;
+  background-color: #fce1e4;
+  border: 1px solid #600000;
+}
+.cimg_col_i {
+  color: #634806;
+  background-color: #fcf5c7;
+  border: 1px solid #634806;
+}
+.cimg_col_j {
+  color: #000060;
+  background-color: #a2ccd3 ;
+  border: 1px solid #000060;
+}
+.cimg_col_k {
+  color: #00202a;
+  background-color: #ddedea;
+  border: 1px solid #00202a;
+}
+.cimg_col_l {
+  color: #360036;
+  background-color: #e8dff5;
+  border: 1px solid #360036;
+}
+.cimg_col_m {
+  color: #32050e;
+  background-color: #d4afb9;
+  border: 1px solid #32050e;
+}
+.cimg_col_n {
+  color: #39134c;
+  background-color: #d1cfe2 ;
+  border: 1px solid #39134c;
+}
+.cimg_col_o {
+  color: #000036;
+  background-color: #9cadce ;
+  border: 1px solid #000036;
+}
+.cimg_col_p {
+  
+  color: #67221b;
+  background-color: #fcf4dd;
+  border: 1px solid #67221b;
+}
+.cimg_col_q {
+  color: #551700;
+  background-color: #eac9c1 ;
+  border: 1px solid #551700;
+}
+.cimg_col_r {
+  color: #550000;
+  background-color: #ebd8d0 ;
+  border: 1px solid #550000;
+}
+.cimg_col_s {
+  color: #322a60;
+  background-color: #ffe5ec ;
+  border: 1px solid #322a60;
+}
+.cimg_col_t {
+  color: #3d1410;
+  background-color: #ffc2d1 ;
+  border: 1px solid #3d1410;
+}
+.cimg_col_u {
+  color: #123622;
+  background-color: #a5ffd6 ;
+  border: 1px solid #123622;
+}
+.cimg_col_v {
+  color: #3d1410;
+  background-color: #ffa69e ;
+  border: 1px solid #3d1410;
+}
+.cimg_col_w {
+  color: #1c2a43;
+  background-color: #b5d6d6 ;
+  border: 1px solid #1c2a43;
+}
+.cimg_col_x {
+  color: #919191;
+  background-color: #e2e2e2;
+  border: 1px solid #919191;
+}
+.cimg_col_y {
+  color: #220b38;
+  background-color: #dfb2f4 ;
+  border: 1px solid #220b38;
+}
+.cimg_col_z {
+  color: #003636;
+  background-color: #eaf2d7 ;
+  border: 1px solid #003636;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.small_btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  
+}
+
+@media screen and (max-width: 1100px) {
+  #resonate_header_btns {
+    position: absolute;
+    justify-content:right;
+    align-items:inherit;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .contact_details_block {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .contact_comadd_block {
+    display: block !important;
+  }
+  .contact_company_block, .contact_address_block {
+    width: 95% ;
+    margin-bottom: 5px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  #resonate_header_btns {
+    display: none !important;
+  }
+  #resonate_header_btns_small {
+    display: block !important;
+    margin: none !important ;
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact_details_block {
+    display: block !important;
+  }
+  .contact_company_block, .contact_address_block {
+    width: 90% ;
+    margin-bottom: 10px;
+  }
+  .contact_img_details {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #resonate_header {
+    background-image: none;
+
+  }
+  #resonate_header_btns {
+    display: flex !important;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  #resonate_header_btns_small {
+    display: none !important;
+  }
+  .res_task_btn {
+    margin: 3px;
   }
 }
